@@ -1,0 +1,81 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+background-image:url("D:\Coding challenges\profile-card-component-main\profile-card-component-main\images\bg-pattern-bottom.png");
+
+}
+.card{
+  width:400px;
+  height:380px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 90%;
+  transform: translate(-50%, -10%);
+  border-radius: 10px;
+}
+.top img{
+  height: 33%;
+  width: 100%;
+  border-radius: 10px 10px 0 0 ;
+ }
+ .middle{
+   height: 40%;
+   text-align: center;
+}
+.middle .middle-text{
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 32px;
+    top:220px;
+}
+.middle img{
+  width:25%;
+  position: relative;
+  top:-30%;
+  border-radius: 50%;
+  border: white solid 5px;
+}
+.bottom{
+  text-align: center;
+  border-left: 20px;
+  border-top: lightgrey solid 1px;
+   width: 100%;
+   display: inline-flex;
+   padding: auto;
+   padding-top: -8.5%;
+position:absolute;
+top: 80%;
+}
+.bottoml{
+  width: 30%;
+  position: absolute;
+  line-height: 1;
+
+}
+.bottomc{
+  width: 30%;
+  position: absolute;
+  left:33%;
+  line-height: 1;
+  margin: 0;
+}
+.bottomr{
+  width: 30%;
+  position: absolute;
+  line-height: 1;
+  left: 66%;
+}
+.big{
+  font-size: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bolder;
+  margin:15px;
+}
+.light{
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
